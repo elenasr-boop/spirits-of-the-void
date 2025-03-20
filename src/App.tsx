@@ -1,3 +1,4 @@
+import { StartWindow } from './components/modal/StartWindow/StartWindow'
 import { GlobalStyle } from './Global.styled'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   return (
     <>
     <GlobalStyle />
-      It's a game window
+    <StartWindow />
     </>
   )
 }
